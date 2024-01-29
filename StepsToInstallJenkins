@@ -1,0 +1,32 @@
+Jenkins
+------
+
+It is a java application and used for CI/CD.
+
+Download:
+Step 1: Go to https://www.jenkins.io/. Click Download
+ 
+Step 2: Download Jenkins ‘Generic Java package’. I prefer to download LTS package (It is a stable one).
+ 
+Step 3: Select your desired path after downloading and save the Jenkins.war file in your local system.
+
+Step 4: Go to command prompt (Windows) | Terminal (IOS)
+	Go to the folder where the war file is saved. Then, type the command java -jar Jenkins.war and run it. It will take a while to run the command. It gives an admin password. 
+  Note it down to use Jenkins the first time. 
+  The password will be saved in the mentioned path C:\Users\sukan\.jenkins\secrets
+ 
+Step 5: Go to the browser and type http://localhost:8080/ and enter. It asks for the password. Provide it and click Continue.
+ 
+Step 6: Select Plugins to install
+ 
+Step 7: Select the plugins and click install
+ 
+Step 8: After installing, it goes to the page where asks for credentials to create. You can select an admin user to proceed if you do not want to create a new id.
+ 
+Step 9: Click Save and Finish
+ 
+Step 10: Your Jenkins is ready now and start using Jenkins.
+ 
+Step 11: This is the homepage after installing it
+ 
+Step 12: All the Jenkin related plugins and folders will be in the available path
